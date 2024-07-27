@@ -1,0 +1,211 @@
+/* shared styles here  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+/* shared styles ends here  */
+
+/* header section styles here  */
+
+/* navbar styles here  */
+.header-container{
+    margin: 0px 200px;
+}
+#header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 150%),linear-gradient(360.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 150%)
+    ;
+    padding-top: 60px;
+    margin-bottom: 100px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.navbar-container h3{
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+}
+
+.menubar, li, a{
+    
+    list-style: none;
+    text-decoration: none;
+}
+
+.menubar ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 47px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 12px 4px;
+    border-radius: 37px;
+    padding-right: 20PX;
+}
+
+.menubar ul li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.menubar ul li a span{
+    background-color: #E6533C;
+    padding: 8px 20px;
+    border-radius: 37px;
+}
+/* navbar styles ends here  */
+
+/* banner styles here  */
+
+/* banner styles here  */
+
+.banner-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 500px;
+}
+
+.banner-text-content h1{
+    font-size: 78px;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.banner-text-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 28px;
+}
+
+.banner-text-content .btn-1{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #E6533C;
+    border: none;
+    border-radius: 42px;
+    margin-right: 15px;
+    width: 224px;
+    height: 54px;
+}
+.banner-text-content .btn-2{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 42px;
+    width: 224px;
+    height: 54px;
+}
+
+.banner-text-content .btn-1:hover{
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+.banner-text-content .btn-2:hover{
+    background: #E6533C;
+    cursor: pointer;
+    border: none;
+}
+
+.s-500, .s-350{
+    position: absolute;
+}
+
+.s-350{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+
+    backdrop-filter: blur(15px);
+    background: rgba(48, 48, 48, 0.54);
+    width: 206px;
+    height: 96px;
+    text-align: center;
+    bottom: 250px;
+    right: 470px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circle{
+    background-color: #E6533C;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.s-350 .text-content h3{
+    font-size: 24px;
+    font-weight: 900;
+    color: #fff;
+    text-align: left;
+}
+
+.s-350 .text-content p{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(239, 237, 232, 65%);
+    text-align: left;
+}
+
+.s-500{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+
+    backdrop-filter: blur(15px);
+    background: rgba(48, 48, 48, 0.54);
+    width: 193px;
+    height: 98px;
+    text-align: center;
+    right: 140px;
+    top: 335px;
+}
+
+.texts{
+    margin: 17px 23px;
+}
+
+.texts h3{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: left;
+    color: #fff;
+}
+
+.texts p{
+    font-size: 13px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 65%);
+    text-align: left;
+}
+
+/* header section ends styles here  */
