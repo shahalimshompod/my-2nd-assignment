@@ -232,7 +232,7 @@ body{
 
 /* media query for different devices */
 /* for mobile device */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 720px) {
     .header-container{
         margin: 0px 50px;
     }
