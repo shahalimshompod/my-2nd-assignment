@@ -4,6 +4,12 @@
     padding: 0px;
 }
 
+
+
+.hidden{
+    display: none;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
@@ -216,4 +222,56 @@ body{
     text-align: left;
 }
 
+
 /* header section ends styles here  */
+
+
+
+
+
+
+/* media query for different devices */
+/* for mobile device */
+@media screen and (max-width: 576px) {
+    .header-container{
+        margin: 0px 50px;
+    }
+
+
+    .navbar-container .menubar{
+        display: none;
+    }
+
+    #header{
+        width: 576px;
+    }
+
+    .banner-contents{
+        flex-direction: column;
+    }
+
+    .banner-text-content h1{
+        font-size: 36px;
+    }
+
+    .banner-text-content p{
+        white-space: nowrap;
+    }
+
+    .banner-text-content{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 48px;
+    }
+
+    .s-350{
+        left: 32px;
+        top: 850px;
+    }
+
+    .s-500{
+        top: 600px;
+        left: 350px;
+    }
+}
+/* mobile device ends here  */
