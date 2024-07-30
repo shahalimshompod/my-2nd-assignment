@@ -4,11 +4,14 @@
     padding: 0px;
 }
 
-
-
-.hidden{
-    display: none;
+@font-face {
+    font-family: myfont;
+    src: url(assets/Miama.ttf);
 }
+
+/* .hidden{
+    display: none;
+} */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -100,11 +103,19 @@ body{
     height: 440px;
 }
 
+.banner-text-content span{
+    font-family: myfont; 
+    font-size: 150px;
+    font-weight: normal; 
+}
+
 .banner-text-content h1{
     font-size: 78px;
     color: #fff;
     font-weight: 900;
     margin-bottom: 28px;
+    width: 520px;
+    line-height: 90px;
 }
 
 .banner-text-content p{
