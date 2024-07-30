@@ -9,9 +9,9 @@
     src: url(assets/Miama.ttf);
 }
 
-/* .hidden{
+.hidden{
     display: none;
-} */
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -281,6 +281,12 @@ body{
         font-size: 40px;
         font-weight: 900;
         width: 70%;
+        line-height: 50px;
+    }
+
+    .banner-text-content span{
+        font-size: 80px;
+        font-weight: normal;
     }
 
     .banner-text-content p{
