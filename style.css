@@ -4,14 +4,18 @@
     padding: 0px;
 }
 
+main{
+    background: rgb(0, 0, 0);
+}
+
 @font-face {
     font-family: myfont;
     src: url(assets/Miama.ttf);
 }
 
-.hidden{
+/* .hidden{
     display: none;
-}
+} */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -32,11 +36,11 @@ body{
     margin: 0px 200px;
 }
 #header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 150%),linear-gradient(360.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 150%)
+    background: linear-gradient(180.00deg, rgb(0, 0, 0),rgba(119, 119, 119, 0) 170%),linear-gradient(360.00deg, rgb(0, 0, 0),rgba(119, 119, 119, 0) 170%)
     ;
     width: 100%;
     padding-top: 60px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
 .navbar-container{
@@ -242,6 +246,189 @@ body{
 
 
 
+/* main section styles here  */
+/* section-1 styles here  */
+.section-1{
+    margin: 0px 200px;
+    margin-bottom: 135px;
+}
+
+.section-1 h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.section-1>p{
+    font-size: 14px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.img-box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.img-box-container img{
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    margin-bottom: 30px;
+}
+
+.img-box-container h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.img-box-container p{
+    font-size: 14px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+/* section-1 styles ends here  */
+
+/* section-2 styles here  */
+.section-2{
+    margin: 0px 200px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-left: 50px;
+    gap: 500px;
+    border-radius: 18px;
+    margin-bottom: 100px;
+}
+
+#img-sec-2{
+    border-radius: 18px;
+}
+
+.section-2-text-contents h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.section-2-text-contents p{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 35px;
+}
+
+.section-2-text-contents button{
+    background-color: rgba(230, 83, 60, 100%);
+    border: none;
+    border-radius: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    width: 224px;
+    height: 54px;
+}
+
+.section-2-text-contents button:hover{
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgb(34, 34, 34); 
+}
+/* section-2 styles ends here  */
+
+/* challenge section styles here  */
+.challenge-section{
+    margin: 0px 200px;
+}
+
+.challenge-sec-imgs img{
+    width: 400px;
+    height: 280px;
+    border-radius: 18px;
+}
+
+.challenge-sec-txts h1{
+    font-size: 55px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.challenge-sec-txts p{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.challenge-sec-imgs h4{
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.challenge-sec-imgs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    position: relative;
+    left: 60px;
+}
+
+.imgs-box-1 h4{
+    position: absolute;
+    bottom: 350px;
+    left: 10px;
+}
+
+.imgs-box-2 h4{
+    position: absolute;
+    bottom: 350px;
+    left: 510px;
+}
+.imgs-box-3 h4{
+    position: absolute;
+    bottom: 350px;
+    left: 1020px;
+}
+
+.imgs-box-4 h4{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.imgs-box-5 h4{
+    position: absolute;
+    bottom: 20px;
+    left: 510px;
+}
+
+.imgs-box-6 h4{
+    position: absolute;
+    bottom: 20px;
+    left: 1020px;
+}
+/* challenge section styles here  */
+/* main section styles ends here  */
 
 
 
