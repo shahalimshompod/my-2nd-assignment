@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+html{
+    zoom: 100%;
+}
+
 main{
     background: rgb(0, 0, 0);
 }
