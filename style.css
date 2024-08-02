@@ -4,10 +4,6 @@
     padding: 0px;
 }
 
-html{
-    zoom: 100%;
-}
-
 main{
     background: rgb(0, 0, 0);
 }
@@ -17,9 +13,9 @@ main{
     src: url(assets/Miama.ttf);
 }
 
-.hidden{
+/* .hidden{
     display: none;
-}
+} */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -597,6 +593,7 @@ select:focus option{
 /* section-4 styles here  */
 .section-4{
     margin: 0px 200px;
+    padding-bottom: 100px;
 }
 
 .section-4 h1{
@@ -620,7 +617,8 @@ select:focus option{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     background-color: rgba(255, 255, 255, 0.1);
-    /* column-gap: 0px; */
+    padding: 20px;
+    border-radius: 18px;
 }
 
 .section-4-img-container > div{
@@ -631,30 +629,28 @@ select:focus option{
     position: absolute;
     bottom: 10px;
     left: 10px;
+    text-align: left;
 }
 
 .section-4-img-container img{
     width: 100%;
-    height: 100%;
+    height: 100%px;
     object-fit: cover;
-    /* position: relative; */
-    /* left: 90px; */
-    /* margin: 0px;
-    padding: 0px; */
+    border-radius: 18px;
 }
 
 .section-4-img-container h5{
     font-size: 20px;
     font-weight: 900;
     color: #fff;
-    text-align: center;
+    text-align: left;
 }
 
 .section-4-img-container p{
     font-size: 14px;
     font-weight: normal;
     color: rgba(255, 255, 255, 0.5);
-    text-align: center;
+    text-align: left;
 }
 /* section-4 styles ends here  */
 /* main section styles ends here  */
