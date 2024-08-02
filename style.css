@@ -644,6 +644,7 @@ center{
 /* footer section ends here  */
 
 /* challenge section starts here  */
+/* section-5 styles starts here  */
 .section-5>h1{
     text-align: center;
     color: white;
@@ -738,7 +739,198 @@ center{
 .orange{
     color: #E6533C;
 }
-/* challenge section starts here  */
+/* section-5 styles ends here  */
+
+/* section-5 styles starts here  */
+.section-6{
+    background-image: linear-gradient(0deg, #302a2a, rgba(255, 255, 255, 0.5));
+    padding: 100px 0px;
+}
+
+.section-6>p{
+    color: #fff;
+    text-align: center;
+    border: 3px solid #E6533C;
+    width: 20%;
+    margin: 0 auto;
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.section-6>h1{
+    color: #fff;
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 100px;
+}
+
+.section-6 span img{
+    width: 24px;
+    height: 24px;
+}
+
+.pricing-container .pricing-1, .pricing-2, .pricing-3{
+    background-color: rgba(0, 0, 0, 1);
+    width: 30%;
+    height: 740px;
+    padding: 50px 40px;
+    box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.pricing-2{
+    width: 35%;
+    height: 830px;
+}
+
+.pricing-content{
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.pricing-1 h2, .pricing-3 h2{
+    font-size: 48px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.pricing-2 h2{
+    font-size: 54px;
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.pricing-1 h1, .pricing-3 h1{
+    font-size: 64px;
+    text-align: center;
+    color: #E6533C;
+    margin-bottom: 50px;
+}
+
+.pricing-2 h1{
+    font-size: 70px;
+    text-align: center;
+    color: #E6533C;
+    margin-bottom: 50px;
+}
+
+sub{
+    font-size: 20px;
+    color: #fff;
+}
+
+.section-6 ul li{
+    list-style: none;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+}
+
+.pricing-2 ul li{
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.section-6 ul{
+    margin-bottom: 20px;
+}
+
+.pricing-1 p, .pricing-2 p, .pricing-3 p{
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pricing-2 p{
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-6 button{
+    background-color: rgba(230, 83, 60, 100%);
+    border: none;
+    border-radius: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    width: 224px;
+    height: 54px;
+    transition: background-color 0.5s ease;
+    margin: 0 75px;
+}
+
+.pricing-2 button{
+    background-color: rgba(230, 83, 60, 100%);
+    border: none;
+    border-radius: 42px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    width: 250px;
+    height: 60px;
+    transition: background-color 0.5s ease;
+    margin: 0 100px;
+}
+
+.section-6 button:hover{
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgb(34, 34, 34); 
+    transition: background-color 0.5s ease;
+}
+
+.review-container .reviewbox-1 img, .reviewbox-2 img, .reviewbox-3 img{
+    width: 150px;
+    height: 150px;
+}
+
+.review-container .reviewbox-1 p, .reviewbox-2 p, .reviewbox-3 p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.review-container .human img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.reviewbox-1, .reviewbox-2, .reviewbox-3{
+    border: 2px solid #E6533C;
+    width: 40%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.review-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    gap: 20px;
+}
+/* section-5 styles ends here  */
+/* challenge section ends here  */
 
 
 
