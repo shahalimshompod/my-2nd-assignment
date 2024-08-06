@@ -1052,6 +1052,7 @@ sub{
     .section-1{
         margin: 0 auto;
         width: 100%;
+        padding-bottom: 30px;
     }
 
     .section-1 h1{
@@ -1074,6 +1075,7 @@ sub{
         font-size: 15px;
         margin-bottom: 60px;
     }
+
     /* section-1 styles ends here  */
 
     /* section-2 styles here  */
@@ -1175,5 +1177,48 @@ sub{
         padding: 30px;
     }
     /* section-4 styles ends here  */
+    /* section-5 styles here  */
+    .section-5-content-1, .section-5-content-2, .section-5-content-3{
+        /* flex-direction: column; */
+        margin: 0 30px;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .content-3{
+        width: 250px;
+    }
+
+    .section-5-container{
+        margin: 0;
+    }
+
+    .section-5-content-1 img, .section-5-content-2 img, .section-5-content-3 img {
+        width: 45%;
+        border-radius: 20px;
+    }
+
+    .section-5-content-1, .section-5-content-3 {
+        background: linear-gradient(90deg,rgba(255, 255, 255, 0.1), black);
+    }
+
+    .section-5-content-2{
+       background-image: linear-gradient(90deg, black, rgba(255, 255, 255, 0.1));
+    }
+
+    .btnlike-1, .btnlike-2, .btnlike-3 {
+        border: 2px solid #E6533C;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        font-style: italic;
+    }
+
+    .section-5-content-1, .section-5-content-2, .section-5-content-3{
+        padding: 20px;
+    }
+    /* section-5 styles ends here  */
 }
 /* mobile device ends here  */
