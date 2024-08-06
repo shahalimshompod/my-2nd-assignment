@@ -4,6 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* *{
+    border: 1px solid red;
+  }
+  
+  body{
+    border: 2px dashed green;
+  } */
 
 main{
     background: rgb(0, 0, 0);
@@ -14,9 +21,9 @@ main{
     src: url(assets/Miama.ttf);
 }
 
-/* .hidden{
+.hidden{
     display: none;
-} */
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -181,7 +188,6 @@ body{
 .s-350{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-
     backdrop-filter: blur(5px);
     background: rgba(48, 48, 48, 0.54);
     width: 206px;
@@ -255,7 +261,7 @@ body{
 /* section-1 styles here  */
 .section-1{
     margin: 0px 200px;
-    margin-bottom: 135px;
+    padding-bottom: 135px;
 }
 
 .section-1 h1{
@@ -528,7 +534,7 @@ select:focus option{
 }
 
 .section-4>p{
-    font-size: 14px;
+    font-size: 20px;
     font-weight: normal;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
@@ -936,9 +942,10 @@ sub{
 
 /* media query for different devices */
 /* for mobile device */
+/* banner section styles */
 @media screen and (max-width: 576px) {
     .header-container{
-        margin: 0px 50px;
+        margin: 0px 30px;
     }
 
     .navbar-container{
@@ -959,7 +966,7 @@ sub{
     }
 
     #header{
-        width: 576px;
+        max-width: 576px;
     }
 
     .banner-contents{
@@ -993,11 +1000,180 @@ sub{
     .s-350{
         left: 50px;
         top: 970px;
+        width: 155px;
+        height: 72px;
+    }
+
+    .s-350 .text-content h3{
+        font-size: 18px;
+        font-weight: 900;
+        color: #fff;
+        text-align: left;
+    }
+
+    .s-350 .text-content p{
+        font-size: 12px;
+        font-weight: normal;
+        color: rgba(239, 237, 232, 65%);
+        text-align: left;
     }
 
     .s-500{
-        top: 700px;
-        left: 320px;
+        top: 750px;
+        left: 350px;
+        width: 145px;
+        height: 74px;
     }
+
+    .texts{
+        margin: 12px 17px;
+    }
+
+    .texts h3{
+        font-size: 30px;
+        font-weight: 900;
+        text-align: left;
+        color: #fff;
+    }
+    .texts p{
+        font-size: 10px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 65%);
+    text-align: left;
+    }
+
+    .banner-text-content .btn-1, .banner-text-content .btn-2{
+        width: 169px;
+        height: 54px;
+    }
+    /* banner section styles end*/
+
+    /* section-1 styles here  */
+    .section-1{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .section-1 h1{
+        padding-top: 0px;
+    }
+
+    .img-box-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-box-container p{
+        margin-bottom: 40px;
+    }
+
+    .section-1>p{     
+        /* width: 316px; */
+        margin: 0 30px;
+        font-size: 15px;
+        margin-bottom: 60px;
+    }
+    /* section-1 styles ends here  */
+
+    /* section-2 styles here  */
+    .section-2{
+        flex-direction: column;
+        margin: 0px 30px;
+        gap: 30px;
+        padding-left: 33px;
+        margin-bottom: 30px;
+    }
+
+    .section-2-text-contents button{
+        width: 450px;
+        height: 64px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #img-sec-2{
+        width: 100%;
+    }
+    /* section-2 styles ends here  */
+    /* section-3 styles here  */
+    .section-3-txt-content {
+        margin: 0px 30px;
+    }
+
+    .section-3-txt-content p {
+        line-height: 30px;
+        margin-bottom: 50px;
+        letter-spacing: 0.3px;
+    }
+
+    .bmi-calculator-table{
+        margin: 0px 30px;
+    }
+
+    .bmi-calculator-container{
+        padding: 35px 0;
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .bmi-txt{
+        margin: 0px 30px;
+    }
+
+    table{
+        margin-bottom: 45px;
+        width: 100%;
+    }
+
+    .bmi-calculator-table h3{
+        margin-bottom: 23px;
+    }
+
+    .inpt-height input, .inpt-weight input, .inpt-age input, .sel-sex select{
+        width: 250px;
+        height: 48px;
+    }
+
+    .hwas{
+        margin: 0 30px;
+    }
+
+    .sel-factor select{
+        width: 514px;
+        height: 48px;
+        margin: 0 30px;
+        margin-bottom: 35px;
+    }
+
+    .inpt-button button{
+        margin: 0 30px;
+    }
+
+    .section-3{
+        margin-bottom: 0px;
+    }
+    /* section-3 styles ends here  */
+
+    /* section-4 styles here  */
+    .section-4 {
+        margin: 0px 30px;
+        padding: 66px 0;
+    }
+
+    .section-4>p{
+        font-size: 16px;
+        width: 309px;
+        height: 124px;
+        margin: 0 auto;
+
+    }
+
+    .section-4-img-container{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+        padding: 30px;
+    }
+    /* section-4 styles ends here  */
 }
 /* mobile device ends here  */
