@@ -972,6 +972,7 @@ sub{
 
     .banner-contents{
         flex-direction: column;
+        gap: 0px;
     }
 
     .banner-text-content h1{
@@ -999,11 +1000,12 @@ sub{
     }
 
     .s-350{
-        left: 100px;
-        top: 970px;
+        left: 60px;
+        top: 916px;
         width: 155px;
         height: 72px;
     }
+
 
     .s-350 .text-content h3{
         font-size: 18px;
@@ -1020,8 +1022,8 @@ sub{
     }
 
     .s-500{
-        top: 750px;
-        left: 100px;
+        top: 696px;
+        left: 350px;
         width: 145px;
         height: 74px;
     }
@@ -1044,8 +1046,12 @@ sub{
     }
 
     .banner-text-content .btn-1, .banner-text-content .btn-2{
-        width: 169px;
+        width: 250px;
         height: 54px;
+    }
+
+    .banner-text-content .btn-1{
+        margin-right: 11.5px;
     }
     /* banner section styles end*/
 
