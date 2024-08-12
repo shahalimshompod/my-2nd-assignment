@@ -310,6 +310,8 @@ body{
     font-weight: normal;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
+    width: 231px;
+    margin: 0 auto;
 }
 /* section-1 styles ends here  */
 
@@ -337,6 +339,7 @@ body{
     color: #fff;
     text-align: left;
     margin-bottom: 15px;
+    width: 400px;
 }
 
 .section-2-text-contents p{
@@ -417,6 +420,7 @@ body{
     color: rgba(255, 255, 255, 0.5);
     text-align: left;
     margin-bottom: 35px;
+    width: 500px;
 }
 
 .bmi-calculator-table table, th, tr, td{
@@ -539,6 +543,8 @@ select:focus option{
     font-weight: normal;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
+    width: 900px;
+    margin: 0 auto;
     margin-bottom: 60px;
 }
 
@@ -777,7 +783,9 @@ center{
     color: #fff;
     text-align: center;
     font-size: 64px;
+    margin: 0 auto;
     margin-bottom: 100px;
+    width: 85%;
 }
 
 .section-6 span img{
@@ -902,7 +910,7 @@ sub{
 }
 
 .pricing-1 button, .pricing-3 button{
-    margin: 0 50px;
+    margin: 0 55px;
 }
 
 .section-6 button:hover{
@@ -1221,7 +1229,7 @@ h6{
         width: 309px;
         height: 124px;
         margin: 0 auto;
-
+        width: 520px;
     }
 
     .section-4-img-container{
@@ -1327,7 +1335,6 @@ h6{
         width: 224px;
         height: 54px;
         transition: background-color 0.5s ease;
-        padding: 0 auto;
     }
 
     .pricing-1 button, .pricing-3 button{
@@ -1435,6 +1442,10 @@ h6{
 
     center{
         padding-bottom: 30px;
+    }
+
+    .section-5 .section-5-container p, ul{
+        margin-bottom: 40px;
     }
     /* footer styles ends here  */
 }
