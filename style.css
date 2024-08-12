@@ -638,7 +638,7 @@ select:focus option{
 hr{
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 36px;
+    margin-bottom: 30px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -751,7 +751,14 @@ center{
 /* section-5 styles starts here  */
 .section-6{
     background-image: linear-gradient(0deg, #302a2a, rgba(255, 255, 255, 0.5));
-    padding: 100px 0px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+#review-heading{
+        font-size: 28px;
+        color: white;
+        font-weight: bold;
+        margin: 20px 200px;
 }
 
 .section-6>p{
@@ -868,7 +875,7 @@ sub{
     margin-bottom: 40px;
 }
 
-.section-6 button{
+.section-6>button{
     background-color: rgba(230, 83, 60, 100%);
     border: none;
     border-radius: 42px;
@@ -881,7 +888,7 @@ sub{
     margin: 0 75px;
 }
 
-.pricing-2 button{
+.pricing-1 button, .pricing-2 button, .pricing-3 button{
     background-color: rgba(230, 83, 60, 100%);
     border: none;
     border-radius: 42px;
@@ -894,6 +901,10 @@ sub{
     margin: 0 100px;
 }
 
+.pricing-1 button, .pricing-3 button{
+    margin: 0 50px;
+}
+
 .section-6 button:hover{
     cursor: pointer;
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -901,9 +912,13 @@ sub{
     transition: background-color 0.5s ease;
 }
 
+h6{
+    display: none;
+}
+
 .review-container .reviewbox-1 img, .reviewbox-2 img, .reviewbox-3 img{
     width: 150px;
-    height: 150px;
+    margin: 10px 0px 50px 0px;
 }
 
 .review-container .reviewbox-1 p, .reviewbox-2 p, .reviewbox-3 p{
@@ -935,6 +950,31 @@ sub{
     justify-content: space-between;
     margin: 0 200px;
     gap: 20px;
+}
+
+.review-container-for-phn{
+    display: none;
+}
+
+.last-of-section-6{
+    padding: 0 200px;
+    background-color: #302a2a;
+    padding-bottom: 50px;
+}
+
+.last-of-section-6 button{
+    font-size: 20px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    outline: 1px solid #E6533C;
+    padding: 15px 35px;
+}
+
+.last-of-section-6 button:hover{
+    cursor: pointer;
+    background: #E6533C;
+    transition: background-color 0.5s ease;
 }
 /* section-5 styles ends here  */
 /* challenge section ends here  */
@@ -1001,7 +1041,7 @@ sub{
 
     .s-350{
         left: 60px;
-        top: 916px;
+        top: 966px;
         width: 155px;
         height: 72px;
     }
@@ -1022,7 +1062,7 @@ sub{
     }
 
     .s-500{
-        top: 696px;
+        top: 746px;
         left: 350px;
         width: 145px;
         height: 74px;
@@ -1052,6 +1092,10 @@ sub{
 
     .banner-text-content .btn-1{
         margin-right: 11.5px;
+    }
+
+    .banner-img-content{
+        margin-top: 50px;
     }
     /* banner section styles end*/
 
@@ -1284,8 +1328,6 @@ sub{
         height: 54px;
         transition: background-color 0.5s ease;
         padding: 0 auto;
-        /* position: absolute;
-        left: 30px; */
     }
 
     .pricing-1 button, .pricing-3 button{
@@ -1308,14 +1350,92 @@ sub{
 
     /* review section styles here  */
     .review-container{
-        flex-direction: column;
-        margin: 0 30px;
+        display: none;
     }
 
-    .reviewbox-1, .reviewbox-2, .reviewbox-3{
-        width: 100%;
+    .review-container-for-phn{
+        display: block;
+        padding-bottom: 0.1px;
     }
-    /* review section styles ends here  */
+
+    h6{
+        display: block;
+        font-size: 28px;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    #review-heading{
+        display: none;
+    }
+
+    .reviewbox-1-for-phn, .reviewbox-2-for-phn, .reviewbox-3-for-phn{
+        border: 2px solid #E6533C;
+        width: 100%;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .star-p>img{
+        width: 150px;
+        margin-bottom: 5px;
+    }
+
+    .star-p>p{
+        font-size: 15px;
+        color: white;
+    }
+
+    .reviewbox-2-for-phn>img, .reviewbox-3-for-phn>img{
+        width: 68px;
+        height: 68px;
+    }
+
+    .last-of-section-6{
+        padding: 0 30px;
+        background-color: #302a2a;
+        padding-bottom: 65px;
+    }
+
+    .last-of-section-6 button{
+        font-size: 20px;
+        color: #fff;
+        background-color: transparent;
+        border: none;
+        outline: 1px solid #E6533C;
+        padding: 15px 35px;
+    }
+
+    .last-of-section-6 button:hover{
+        cursor: pointer;
+        background: #E6533C;
+    }
+     /* review section styles ends here */
     /* section-6 styles ends here  */
+
+    /* footer styles here  */
+    .footer-content{
+        flex-direction: column;
+    }
+
+    .whole-footer{
+        padding: 45px 30px;
+        padding-bottom: 0px;
+    }
+
+    .footer-content .first-part p{
+        margin-bottom: 25px;
+    }
+
+    center{
+        padding-bottom: 30px;
+    }
+    /* footer styles ends here  */
 }
 /* mobile device ends here  */
