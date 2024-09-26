@@ -586,9 +586,11 @@ select:focus option{
 /* footer section starts here  */
 .footer-container{
     background-color: rgb(26, 25, 25);
+    padding-bottom: 30px;
 }
 .whole-footer{
     padding: 70px 8% 35px 8%;
+    padding-bottom: 10px;
 }
 .footer-content{
     display: flex;
@@ -645,6 +647,12 @@ center{
     font-size: 0.875em;
     font-weight: normal;
     color: rgba(255, 255, 255, 0.5);
+}
+
+#assigment-2-marks{
+    text-align: center;
+    color: white;
+
 }
 /* footer section ends here  */
 
